@@ -1,0 +1,9 @@
+# Write your MySQL query statement below
+select
+    p.product_id
+from
+    products as p
+where
+    p.low_fats = 'Y'
+AND
+    p.recyclable = 'Y';
